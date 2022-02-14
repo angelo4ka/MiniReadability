@@ -45,26 +45,30 @@ if __name__ == '__main__':
         print("Данная утилита формирует текстовый документ с полезной информацией из веб-страницы.")
         
         while not isExit:
-            command = input("Введите команду: ")
-            dop_command = command
-            command = command.upper()
+            try:
+                command = input("Введите команду: ")
+                dop_command = command
+                command = command.upper()
 
-            full_command = command
-            command = command.split()
-            dop_command = dop_command.split()
+                full_command = command
+                command = command.split()
+                dop_command = dop_command.split()
 
-            if commands_hdbk.IsUnknownCommand(str(command[0])):
-                if command[0] == "HELP":
-                    UseCommandHelp(full_command, command)
+                if commands_hdbk.IsUnknownCommand(str(command[0])):
+                    if command[0] == "HELP":
+                        UseCommandHelp(full_command, command)
 
-                if command[0] == "EXIT":
-                    isExit = True
-                    print("Выполнен выход из утилиты.")
+                    if command[0] == "EXIT":
+                        isExit = True
+                        print("Выполнен выход из утилиты.")
 
-                if command[0] == "BEGIN":
-                    UseCommandBegin(full_command, dop_command)
-            else:
-                commands_hdbk.CR_UnknownCommand(str(full_command))
+                    if command[0] == "BEGIN":
+                        UseCommandBegin(full_command, dop_command)
+                else:
+                    commands_hdbk.CR_UnknownCommand(str(full_command))
+                    print()
+            except:
+                commands_hdbk.CR_CommandEntryError()
                 print()
 
     main()
