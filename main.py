@@ -15,23 +15,20 @@ if __name__ == '__main__':
         if len(command) == 2:
             url = command[1]
             
+            # Получаем текстовый html-файл
             obj_website = Website(url)
             obj_website.get_content_from_url()
 
-
-            ### Преобразование файла в txt (убираем теги) 
-            #name_file = obj_website.file_name_generation()
-
-            #with open(f"html_articles\{name_file}.txt", "r", encoding = "utf-8") as f:
-            #    while True:
-            #        line = f.readline()
-            #    
-            #        if not line:
-            #            break
-                    
-                    # Выводим строку (временная проверка)
-            #        line_tag_converter = TagConverter.strip_tags(line)
-            #        print(TagConverter.strip_tags(str(line)))
+            # Преобразовываем (очищаем) текстовый html-файл
+            name_file = obj_website.file_name_generation()
+            with open(f"html_articles\{name_file}.txt", "r", encoding = "utf-8") as f:
+                obj_tag_converter = TagConverter(f.read())
+                
+#=================================================
+                # ВРЕМЕННО: преобразовываем и выводим в консоль
+                print(obj_tag_converter.strip_tags(f.read()))
+#=================================================
+# Проблемы: остаются теги стиля и javascript-теги, много лишних пробелов
         if len(command) == 1:
             print("Ошибка в синтаксисе команды.")
             print()
