@@ -26,9 +26,9 @@ if __name__ == '__main__':
                 
 #=================================================
                 # ВРЕМЕННО: преобразовываем и выводим в консоль
-                print(obj_tag_converter.strip_tags(f.read()))
+                #print(obj_tag_converter.tag_processing())
+                obj_tag_converter.tag_processing()
 #=================================================
-# Проблемы: остаются теги стиля и javascript-теги
         if len(command) == 1:
             print("Ошибка в синтаксисе команды.")
             print()
