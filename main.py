@@ -16,23 +16,27 @@ if __name__ == '__main__':
             url = command[1]
             
             # Получаем текстовый html-файл
-            obj_website = Website(url)
-            obj_website.get_content_from_url()
+            try:
+                obj_website = Website(url)
+                obj_website.get_content_from_url()
 
-            # Преобразовываем (очищаем) текстовый html-файл
-            name_file = obj_website.file_name_generation()
-            with open(f"html_articles\{name_file}.txt", "r", encoding = "utf-8") as f:
-                obj_tag_converter = TagConverter(f.read())
+                # Преобразовываем (очищаем) текстовый html-файл
+                name_file = obj_website.file_name_generation()
+                with open(f"html_articles\{name_file}.txt", "r", encoding = "utf-8") as f:
+                    obj_tag_converter = TagConverter(f.read())
+                    # Чистка от мусора
+                    obj_tag_converter.tag_processing()
+                    # Преобразование текста в максимально комфортный для чтения (форматирование)
+                    obj_tag_converter.text_formatting()
+                    # Сохраняем текст в файл
+                    obj_tag_converter.save_text(url)
                 
-#=================================================
-                # ВРЕМЕННО: преобразовываем и выводим в консоль
-                #print(obj_tag_converter.tag_processing())
-                obj_tag_converter.tag_processing()
-#=================================================
+                print("Текстовый документ с полезной информацией из веб-страницы успешно сформирован!\n\n")
+            except:
+                print("Введён некорректный URL-сайта.\n\n")
+
         if len(command) == 1:
-            print("Ошибка в синтаксисе команды.")
-            print()
-            print()
+            print("Ошибка в синтаксисе команды.\n\n")
         if len(command) > 2:
             commands_hdbk.CR_UnknownCommand(str(full_command))
             print()

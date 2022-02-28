@@ -31,7 +31,7 @@ def CR_Help():
 
 # Помощь по выходу из утилиты
 def CR_Exit():
-    print("Вывод из утилиты:")
+    print("Выход из утилиты:")
     print("|  EXIT")
     print()
 

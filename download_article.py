@@ -1,5 +1,6 @@
 from requests import request
 import re, requests
+import os
 
 class Website():
     def __init__(self, url):
@@ -14,7 +15,15 @@ class Website():
 
     def get_content_from_url(self):
         title = self.file_name_generation()
+        
+        # Создаём директорию, если её нет и переходим в неё
+        if not os.path.isdir("html_articles"):
+            os.mkdir("html_articles")
+        os.chdir("html_articles")
 
         r = request("GET", f"{self.url}").text
-        with open(f"html_articles\{title}.txt", "w", encoding = "utf-8") as f:
+        with open(f"{title}.txt", "w", encoding = "utf-8") as f:
             f.write(r)
+
+        # Возвращаемся в первоначальную директорию
+        os.chdir("..")
