@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru" data-vue-meta="%7B%22lang%22:%7B%22ssr%22:%22ru%22%7D%7D">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+  <meta name="referrer" content="unsafe-url">
+  <title>Отрасль IT в России поставили на паузу / Хабр</title>
+  <style>
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2) format('woff2');
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* non-breaking hyphen */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/l/font?kit=KFOlCnqEu92Fr1MmEU9vBh0_IsHAlmrO6g&skey=ee881451c540fdec&v=v29) format('woff2');
+      unicode-range: U+02011;
+    }
+  </style>
+  <link rel="preload" href="https://assets.habr.com/habr-web/css/chunk-vendors.faa02dcb.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/chunk-vendors.72aba079.js" as="script"><link rel="preload" href="https://assets.habr.com/habr-web/css/app.b3701cc9.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/app.c5b6c1f6.js" as="script">
+  <link rel="stylesheet" href="https://assets.habr.com/habr-web/css/chunk-vendors.faa02dcb.css"><link rel="stylesheet" href="https://assets.habr.com/habr-web/css/app.b3701cc9.css">
+  <script>window.i18nFetch = new Promise((res, rej) => {
+          const xhr = new XMLHttpRequest();
+          xhr.open('GET', '/js/i18n/ru-compiled.2822d469ec31a56409ac330bbcf7fcbf.json');
+          xhr.responseType = 'json';
+          xhr.onload = function(e) {
+            if (this.status === 200) {
+              res({ru: xhr.response});
+            } else {
+              rej(e);
+            }
+          };
+          xhr.send();
+        });</script>
+  
+  <script data-vue-meta="ssr" type="application/ld+json" data-vmid="ldjson-schema">{"@context":"http:\/\/schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/habr.com\/ru\/post\/653605\/"},"headline":"Отрасль IT в России поставили на паузу","datePublished":"2022-02-27T15:59:16+03:00","dateModified":"2022-02-28T14:50:23+03:00","author":{"@type":"Person","name":"Константин"},"publisher":{"@type":"Organization","name":"Habr","logo":{"@type":"ImageObject","url":"https:\/\/habrastorage.org\/webt\/a_\/lk\/9m\/a_lk9mjkccjox-zccjrpfolmkmq.png"}},"description":"Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel при...","url":"https:\/\/habr.com\/ru\/post\/653605\/#post-content-body","about":["h_it-infrastructure","h_business-laws","f_management","f_admin"],"image":["https:\/\/habr.com\/share\/publication\/653605\/b978f1f138d4e7f08c10277b253c39f5\/"]}</script>
+  <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+  <style>.grecaptcha-badge{visibility: hidden;}</style>
+  <meta name="habr-version" content="2.64.0">
+  
+  <meta data-vue-meta="ssr" property="fb:app_id" content="444736788986613"><meta data-vue-meta="ssr" property="fb:pages" content="472597926099084"><meta data-vue-meta="ssr" name="twitter:card" content="summary_large_image"><meta data-vue-meta="ssr" name="twitter:site" content="@habr_com"><meta data-vue-meta="ssr" property="og:site_name" content="Хабр" data-vmid="og:site_name"><meta data-vue-meta="ssr" property="og:title" content="Отрасль IT в России поставили на паузу" data-vmid="og:title"><meta data-vue-meta="ssr" name="twitter:title" content="Отрасль IT в России поставили на паузу" data-vmid="twitter:title"><meta data-vue-meta="ssr" name="aiturec:title" content="Отрасль IT в России поставили на паузу" data-vmid="aiturec:title"><meta data-vue-meta="ssr" name="description" content="Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel приостановили поставки своей продукции на..." data-vmid="description"><meta data-vue-meta="ssr" itemprop="description" content="Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel приостановили поставки своей продукции на..." data-vmid="description:itemprop"><meta data-vue-meta="ssr" property="og:description" content="Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel приостановили поставки своей продукции на..." data-vmid="og:description"><meta data-vue-meta="ssr" name="twitter:description" content="Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel приостановили поставки своей продукции на..." data-vmid="twitter:description"><meta data-vue-meta="ssr" property="aiturec:description" content="Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel приостановили поставки своей продукции на..." data-vmid="aiturec:description"><meta data-vue-meta="ssr" itemprop="image" content="https://habrastorage.org/getpro/habr/upload_files/722/e26/cc3/722e26cc35c5bc3ad49cbf05c3cb9d36.png" data-vmid="image:itemprop"><meta data-vue-meta="ssr" property="og:image" content="https://habrastorage.org/getpro/habr/upload_files/722/e26/cc3/722e26cc35c5bc3ad49cbf05c3cb9d36.png" data-vmid="og:image"><meta data-vue-meta="ssr" property="og:image:width" content="1200" data-vmid="og:image:width"><meta data-vue-meta="ssr" property="og:image:height" content="630" data-vmid="og:image:height"><meta data-vue-meta="ssr" property="aiturec:image" content="https://habrastorage.org/getpro/habr/upload_files/722/e26/cc3/722e26cc35c5bc3ad49cbf05c3cb9d36.png" data-vmid="aiturec:image"><meta data-vue-meta="ssr" name="twitter:image" content="https://habrastorage.org/getpro/habr/upload_files/722/e26/cc3/722e26cc35c5bc3ad49cbf05c3cb9d36.png" data-vmid="twitter:image"><meta data-vue-meta="ssr" property="vk:image" content="https://habrastorage.org/getpro/habr/upload_files/722/e26/cc3/722e26cc35c5bc3ad49cbf05c3cb9d36.png?format=vk" data-vmid="vk:image"><meta data-vue-meta="ssr" property="aiturec:item_id" content="653605" data-vmid="aiturec:item_id"><meta data-vue-meta="ssr" property="aiturec:datetime" content="2022-02-27T12:59:16.000Z" data-vmid="aiturec:datetime"><meta data-vue-meta="ssr" content="https://habr.com/ru/post/653605/" property="og:url" data-vmid="og:url"><meta data-vue-meta="ssr" property="og:type" content="article" data-vmid="og:type"><meta data-vue-meta="ssr" property="og:locale" content="ru_RU" data-vmid="og:locale"><meta data-vue-meta="ssr" name="keywords" content="санкции, intel">
+  <link data-vue-meta="ssr" href="https://habr.com/ru/rss/post/653605/?fl=ru" type="application/rss+xml" title="" rel="alternate" name="rss"><link data-vue-meta="ssr" href="https://habr.com/ru/post/653605/" rel="canonical" data-vmid="canonical"><link data-vue-meta="ssr" data-vmid="hreflang"><link data-vue-meta="ssr" image_src="image" href="https://habrastorage.org/getpro/habr/upload_files/722/e26/cc3/722e26cc35c5bc3ad49cbf05c3cb9d36.png" data-vmid="image:href"><link data-vue-meta="ssr" rel="amphtml" href="https://habr.com/ru/amp/post/653605/">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303b44">
+  <meta name="msapplication-TileColor" content="#629FBC">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    sizes="16x16"
+    href="https://assets.habr.com/habr-web/img/favicons/favicon-16.png"
+  >
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    sizes="32x32"
+    href="https://assets.habr.com/habr-web/img/favicons/favicon-32.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="76x76"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-76.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="120x120"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="152x152"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-152.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="180x180"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-180.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="256x256"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-256.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1136x640.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2436x1125.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1792x828.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_828x1792.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1334x750.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2208x1242.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1125x2436.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2208.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2732x2048.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2688x1242.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2224x1668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_750x1334.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2048x2732.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2388x1668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2224.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_640x1136.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2388.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2048x1536.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1536x2048.png"
+  >
+  <link
+    rel="mask-icon"
+    color="#77a2b6"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.svg"
+  >
+  <link
+    crossorigin="use-credentials"
+    href="/manifest.webmanifest"
+    rel="manifest"
+  >
+</head>
+<body>
+
+
+<div id="app" data-server-rendered="true" data-async-called="true"><div class="tm-layout__wrapper"><!----> <div></div> <div class="tm-feature"><!----></div> <header class="tm-header"><div class="tm-page-width"><div class="tm-header__container"><div class="tm-header__burger-nav"><button type="button" class="tm-header__button tm-header__button_burger"><svg height="16" width="16" class="tm-svg-img tm-header__icon tm-header__icon-burger"><title>Меню</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#header-burger"></use></svg></button></div> <span class="tm-header__logo-wrap"><a href="/ru/" class="tm-header__logo tm-header__logo_ru"><svg height="16" width="16" class="tm-svg-img tm-header__icon"><title>Хабр</title> <use xlink:href="/img/habr-logo-ru.svg#logo"></use></svg></a> <span class="tm-header__beta-sign" style="display:none;">β</span></span> <!----> <div class="tm-header-user-menu tm-header_user-menu"><a href="/ru/search/" class="tm-header-user-menu__item tm-header-user-menu__search"><svg height="24" width="24" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_search"><title>Поиск</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#search"></use></svg></a> <!----> <!----> <!----> <div class="tm-header-user-menu__item"><button data-test-id="menu-toggle-guest" class="tm-header-user-menu__toggle"><svg height="24" width="24" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_white"><title>Профиль</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#header-user"></use></svg></button> <!----></div> <!----></div></div></div></header> <div class="tm-layout"><div class="tm-page-progress-bar"></div> <!----> <!----> <div class="tm-page-width"></div> <main class="tm-layout__container"><div hl="ru" data-async-called="true" class="tm-page"><div class="tm-page-width"><!----> <div class="tm-page__wrapper"><div class="tm-page__main tm-page__main_has-sidebar"><div class="pull-down"><div class="pull-down__header" style="height:0px;"><div class="pull-down__content" style="bottom:10px;"><svg height="24" width="24" class="tm-svg-img pull-down__arrow"><title>Обновить</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#pull-arrow"></use></svg></div></div> <div class="tm-article-presenter"> <div class="tm-article-presenter__body"><div class="tm-misprint-area"><div class="tm-misprint-area__wrapper"><article class="tm-article-presenter__content tm-article-presenter__content_narrow"><div class="tm-article-presenter__header"> <div class="tm-article-snippet tm-article-presenter__snippet"><div class="tm-article-snippet__meta-container"><div class="tm-article-snippet__meta"><span class="tm-user-info tm-article-snippet__author"><a href="/ru/users/vconst/" title="vconst" class="tm-user-info__userpic"><div class="tm-entity-image"><img alt="" height="24" src="//habrastorage.org/r/w32/getpro/habr/avatars/00d/9f3/94c/00d9f394cf19e4fb26875bc982e11ed6.png" width="24" class="tm-entity-image__pic"></div></a> <span class="tm-user-info__user"><a href="/ru/users/vconst/" class="tm-user-info__username">
+      vconst
+    </a> </span></span> <span class="tm-article-snippet__datetime-published"><time datetime="2022-02-27T12:59:16.000Z" title="2022-02-27, 15:59">вчера в 15:59</time></span></div> <!----></div> <h1 lang="ru" class="tm-article-snippet__title tm-article-snippet__title_h1"><span>Отрасль IT в России поставили на паузу</span></h1> <div class="tm-article-snippet__hubs"><span class="tm-article-snippet__hubs-item"><a href="/ru/hub/it-infrastructure/" class="tm-article-snippet__hubs-item-link"><span>IT-инфраструктура</span> <span title="Профильный хаб" class="tm-article-snippet__profiled-hub">*</span></a></span><span class="tm-article-snippet__hubs-item"><a href="/ru/hub/business-laws/" class="tm-article-snippet__hubs-item-link"><span>Законодательство в IT</span> <!----></a></span></div> <!----> <!----> <!----></div></div> <!----> <div data-gallery-root="" lang="ru" class="tm-article-body"><div></div> <div id="post-content-body"><div><div class="article-formatted-body article-formatted-body_version-2"><div xmlns="http://www.w3.org/1999/xhtml"><p>Intel, AMD, Dell, Lenovo, HP etc, короче - <em>все</em> серьезные высокотехнологичные компании прекращают работу с Россией.</p><p>Совсем.</p><p>Из публичных источников: <a href="https://www.rbc.ru/technology_and_media/27/02/2022/621a7f4f9a79473d8899b18d" rel="noopener noreferrer nofollow"><strong>AMD и Intel приостановили поставки своей продукции на территорию России</strong></a><a href="https://www.ixbt.com/news/2022/02/25/ssha-potrebovali-ot-tsms-prekratit-sotrudnichestvo-s-rossiej-est-risk-polnoj-ostanovki-postavok-videokart-i-drugih.html" rel="noopener noreferrer nofollow">,  США потребовали от TSMС прекратить сотрудничество с Россией. Есть риск полной остановки поставок видеокарт и других компонентов из Юго-Восточной Азии</a><strong>. </strong></p><p>Из приватных источников: 25 февраля Intel сообщил своим российским партнерам, что разрывает все контракты и прекращает все поставки, а в течение недели - закроет свое представительство в России. Того же числа компания TSMC сообщила, что прекращает сотрудничество с российскими компаниями. Эльбрус 16 - отменен, Эльбрус 32 - отменен, вообще все текущие разработки отечественных процессоров остановлены, техпроцессы, под которые они велись - больше недоступны, руководство МЦСТ ищет возможности вернуться к старым дизайнам и наладить работу на китайских ФАБах. </p><p>В голове не укладывается, к чему это может привести, потому что ВСЯ современная инфраструктура страны - зависит от этих поставок: работа банков, торговых сетей, логистики, железнодорожного и авиа сообщений, суперкомпьютеров и тд тп. Больше не будет горячей замены комплектующих "день-в-день", никакого развития, никаких новых ЦОДов и новых рабочих мест. Когда иссякнут запасы у местных дилеров, то поддержка работы серверов будет осуществляться по принципу "выдернуть из этого и воткнуть в тот", но этого тоже надолго не хватит.</p><p>И это только начало, потому что на очереди бойкот от софтверных компаний, MS, Google, Apple, Amazon, Meta (Facebook etc), Adobe, Dropbox и так далее и тому подобное, не будет больше никакой поддержки, никаких подписок, никаких облаков, никаких платежных систем. </p><p>Если хотите представить, каково жить без Google Play и Google Pay - посмотрите на Крым. </p><p>Только еще одна проблема в том, значительная часть всяких VPN и средств для обхода русских и иностранных санкций - тоже может быть отключена и не все хостинг-провайдеры продолжат сотрудничество, чтобы поднять у них свой сервер с шифрованным каналом.</p><p>Немного утешает то, что еще не прекращают поставки потребительских товаров, ноутбуки, смартфоны и тп - будут продавать как и раньше. Под тотальный запрет попали только промышленные технологии. Компании, которые были завязаны не только на железе - могут развивать софтверный бизнес.</p><p>Если санкции не прекратятся, то наша страна, потихоньку, но неизбежно, начнет возвращаться в эпоху под названием: "Начало компьютерного века", когда информационные технологии только начали внедряться в промышленных масштабах и большинство потребителей компьютеров было среди домашних пользователей.</p><hr/><p>Не хочется обсуждать причины того, что привело к такой ситуации, обсуждение политики тут запрещено и, если честно, из каждого утюга уже столько, что не спрятаться не скрыться. Потому, прошу воздержаться от эмоциональных комментариев.</p><p>Надеемся на цивилизованный диалог.</p></div></div></div> <DIV class="v-portal" style="display:none;"></DIV></div> <!----> <!----></div> <div class="tm-article-presenter__meta"><div class="tm-separated-list tm-article-presenter__meta-list"><span class="tm-separated-list__title">Теги:</span> <ul class="tm-separated-list__list"><li class="tm-separated-list__item"><a href="/ru/search/?target_type=posts&amp;order=relevance&amp;q=%5B%D1%81%D0%B0%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%5D" class="tm-tags-list__link">санкции</a></li><li class="tm-separated-list__item"><a href="/ru/search/?target_type=posts&amp;order=relevance&amp;q=%5Bintel%5D" class="tm-tags-list__link">intel</a></li></ul></div> <div class="tm-separated-list tm-article-presenter__meta-list"><span class="tm-separated-list__title">Хабы:</span> <ul class="tm-separated-list__list"><li class="tm-separated-list__item"><a href="/ru/hub/it-infrastructure/" class="tm-hubs-list__link">
+    IT-инфраструктура
+  </a></li><li class="tm-separated-list__item"><a href="/ru/hub/business-laws/" class="tm-hubs-list__link">
+    Законодательство в IT
+  </a></li></ul></div></div></article></div> <!----></div> <div class="tm-article-sticky-panel"><div class="tm-data-icons tm-article-sticky-panel__icons"><div class="tm-article-rating tm-data-icons__item"><div class="tm-votes-meter tm-article-rating__votes-switcher"><svg height="24" width="24" class="tm-svg-img tm-votes-meter__icon tm-votes-meter__icon_appearance-article"><title>Всего голосов 302: ↑278 и ↓24</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#counter-rating"></use></svg> <span title="Всего голосов 302: ↑278 и ↓24" class="tm-votes-meter__value tm-votes-meter__value_positive tm-votes-meter__value_appearance-article tm-votes-meter__value_rating">+254</span></div> <DIV class="v-portal" style="display:none;"></DIV></div> <!----> <span title="Количество просмотров" class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Просмотры</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#counter-views"></use></svg> <span class="tm-icon-counter__value">101K</span></span> <button title="Добавить в закладки" type="button" class="bookmarks-button tm-data-icons__item"><span title="Добавить в закладки" class="tm-svg-icon__wrapper bookmarks-button__icon"><svg height="24" width="24" class="tm-svg-img tm-svg-icon"><title>Добавить в закладки</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#counter-favorite"></use></svg></span> <span title="Количество пользователей, добавивших публикацию в закладки" class="bookmarks-button__counter">
+    84
+  </span></button> <!----> <div title="Поделиться" class="tm-sharing tm-data-icons__item"><button type="button" class="tm-sharing__button"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="tm-sharing__icon"><path fill="currentColor" d="M13.8 13.8V18l7.2-6.6L13.8 5v3.9C5 8.9 3 18.6 3 18.6c2.5-4.4 6-4.8 10.8-4.8z"></path></svg></button> <DIV class="v-portal" style="display:none;"></DIV></div> <DIV class="v-portal" style="display:none;"></DIV></div> </div></div> <DIV class="v-portal" style="display:none;"></DIV> <div class="tm-article-presenter__footer"><div class="tm-article-blocks"><!----> <section class="tm-block tm-block_spacing-bottom"><!----> <div class="tm-block__body tm-block__body_variant-balanced"><div class="tm-article-author"> <div class="tm-user-card tm-article-author__user-card tm-user-card_variant-article"><div class="tm-user-card__info-container"><div class="tm-user-card__header"><div class="tm-user-card__header-data"><a href="/ru/users/vconst/" class="tm-user-card__userpic tm-user-card__userpic_size-40"><div class="tm-entity-image"><img alt="" src="//habrastorage.org/getpro/habr/avatars/00d/9f3/94c/00d9f394cf19e4fb26875bc982e11ed6.png" class="tm-entity-image__pic"></div></a> <div class="tm-user-card__meta"><div title=" 580 голосов " class="tm-karma tm-user-card__karma"><div class="tm-karma__votes tm-karma__votes_positive">
+    36
+  </div> <div class="tm-karma__text">
+    Карма
+  </div></div> <div title="Рейтинг пользователя" class="tm-rating tm-user-card__rating"><div class="tm-rating__header"> <div class="tm-rating__counter">254.6</div></div> <div class="tm-rating__text">
+    Рейтинг
+  </div></div></div></div></div> <div class="tm-user-card__info tm-user-card__info_variant-article"><div class="tm-user-card__title tm-user-card__title_variant-article"><span class="tm-user-card__name tm-user-card__name_variant-article">Константин</span> <a href="/ru/users/vconst/" class="tm-user-card__nickname tm-user-card__nickname_variant-article">
+          @vconst
+        </a> <!----></div> <p class="tm-user-card__short-info tm-user-card__short-info_variant-article">IT writer</p></div></div> <div class="tm-user-card__buttons tm-user-card__buttons_variant-article"><!----> <!----> <button type="submit" class="tm-user-card__button btn btn_transparent btn_small">
+      Задонатить
+    </button> <!----> <!----></div></div> <!----></div> <DIV class="v-portal" style="display:none;"></DIV></div> <!----></section> <div class="tm-article-blocks__comments"><div class="tm-article-page-comments"><div class="tm-article-comments-counter-link tm-article-comments-counter-button"><a href="/ru/post/653605/comments/" class="tm-article-comments-counter-link__link tm-article-comments-counter-link__link_button-style"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon tm-article-comments-counter-link__icon_contrasted"><title>Комментарии</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value tm-article-comments-counter-link__value_contrasted">
+       Комментарии 553 
+    </span></a> <!----></div></div></div> <div class="tm-ad-banner__container tm-page-article__banner"><!----> <div id="articleBottomBanner8630" class="tm-ad-banner"></div></div> <!----> <!----> <!----> <!----> <section data-async-called="true" class="tm-block tm-block_spacing-bottom"><header class="tm-block__header"><h2 class="tm-block__title">Работа</h2> <!----></header> <div class="tm-block__body"><div class="tm-vacancies-block__item"><a href="https://career.habr.com/vacancies/sistemnij_administrator" target="_blank" class="tm-vacancies-block__vacancy-title">
+        Системный администратор
+      </a> <div class="tm-vacancies-block__vacancies-count">
+        131
+    вакансия
+      </div></div></div> <footer class="tm-block__footer"><a href="https://career.habr.com/catalog" class="tm-block-extralink">
+      Все вакансии
+    </a></footer></section></div></div></div></div></div> <div class="tm-page__sidebar"><!----></div></div></div></div></main> <!----></div> <!----> <div class="tm-footer"><div class="tm-page-width"><div class="tm-footer__container"><div class="tm-footer__title"><a href="/ru/" class="tm-svg-icon__wrapper tm-footer__title-link router-link-active"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Хабр</title> <use xlink:href="/img/habr-logo-ru.svg#logo"></use></svg></a></div> <div class="tm-footer__social"><a href="https://www.facebook.com/habrahabr.ru" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Facebook</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-facebook"></use></svg></a><a href="https://twitter.com/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Twitter</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-twitter"></use></svg></a><a href="https://vk.com/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>VK</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-vkontakte"></use></svg></a><a href="https://telegram.me/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Telegram</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-telegram"></use></svg></a><a href="https://www.youtube.com/channel/UCd_sTwKqVrweTt4oAKY5y4w" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Youtube</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-youtube"></use></svg></a><a href="https://zen.yandex.ru/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Яндекс Дзен</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-zen"></use></svg></a></div> <DIV class="v-portal" style="display:none;"></DIV> <button class="tm-footer__link"><svg height="16" width="16" class="tm-svg-img tm-footer__icon"><title>Язык</title> <use xlink:href="/img/megazord-v25.4b679db1.svg#lang"></use></svg>
+        Настройка языка
+      </button> <a href="/ru/about" class="tm-footer__link">
+        О сайте
+      </a> <a href="/ru/feedback/" class="tm-footer__link">
+        Техническая поддержка
+      </a> <a href="https://habr.com?mobile=no" class="tm-footer__link">
+        Полная версия
+      </a> <a href="/berserk-mode-nope" class="tm-footer__link">
+        Вернуться на старую версию
+      </a> <div class="tm-footer-copyright"><span class="tm-copyright"><span class="tm-copyright__years">© 2006–2022 </span> <span class="tm-copyright__name">«<a href="https://company.habr.com/" rel="noopener" target="_blank" class="tm-copyright__link">Habr</a>»</span></span></div></div></div></div> <!----> <!----></div> <div class="vue-portal-target"></div></div>
+<script>window.__INITIAL_STATE__={"adblock":{"hasAcceptableAdsFilter":false,"hasAdblock":false},"articlesList":{"articlesList":{"653605":{"id":"653605","timePublished":"2022-02-27T12:59:16+00:00","isCorporative":false,"lang":"ru","titleHtml":"Отрасль IT в России поставили на паузу","leadData":{"textHtml":"\u003Cp\u003EIntel, AMD, Dell, Lenovo, HP etc, короче - \u003Cem\u003Eвсе\u003C\u002Fem\u003E серьезные высокотехнологичные компании прекращают работу с Россией.\u003C\u002Fp\u003E","imageUrl":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F722\u002Fe26\u002Fcc3\u002F722e26cc35c5bc3ad49cbf05c3cb9d36.png","buttonTextHtml":"Читать далее","image":{"url":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F722\u002Fe26\u002Fcc3\u002F722e26cc35c5bc3ad49cbf05c3cb9d36.png","fit":"cover","positionY":0,"positionX":0}},"editorVersion":"2.0","postType":"article","postLabels":[],"author":{"scoreStats":{"score":36,"votesCount":580},"rating":254.6,"relatedData":null,"contacts":[],"authorContacts":[],"paymentDetails":{"paymentYandexMoney":null,"paymentPayPalMe":"vconst","paymentWebmoney":null},"id":"580533","alias":"vconst","fullname":"Константин","avatarUrl":"\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Favatars\u002F00d\u002F9f3\u002F94c\u002F00d9f394cf19e4fb26875bc982e11ed6.png","speciality":"IT writer"},"statistics":{"commentsCount":553,"favoritesCount":84,"readingCount":101041,"score":254,"votesCount":302},"hubs":[{"relatedData":null,"id":"6398","alias":"it-infrastructure","type":"collective","title":"IT-инфраструктура","titleHtml":"IT-инфраструктура","isProfiled":true},{"relatedData":null,"id":"20738","alias":"business-laws","type":"collective","title":"Законодательство в IT","titleHtml":"Законодательство в IT","isProfiled":false}],"flows":[{"id":"3","alias":"management","title":"Менеджмент"},{"id":"6","alias":"admin","title":"Администрирование"}],"relatedData":null,"textHtml":"\u003Cdiv xmlns=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxhtml\"\u003E\u003Cp\u003EIntel, AMD, Dell, Lenovo, HP etc, короче - \u003Cem\u003Eвсе\u003C\u002Fem\u003E серьезные высокотехнологичные компании прекращают работу с Россией.\u003C\u002Fp\u003E\u003Cp\u003EСовсем.\u003C\u002Fp\u003E\u003Cp\u003EИз публичных источников: \u003Ca href=\"https:\u002F\u002Fwww.rbc.ru\u002Ftechnology_and_media\u002F27\u002F02\u002F2022\u002F621a7f4f9a79473d8899b18d\" rel=\"noopener noreferrer nofollow\"\u003E\u003Cstrong\u003EAMD и Intel приостановили поставки своей продукции на территорию России\u003C\u002Fstrong\u003E\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Fwww.ixbt.com\u002Fnews\u002F2022\u002F02\u002F25\u002Fssha-potrebovali-ot-tsms-prekratit-sotrudnichestvo-s-rossiej-est-risk-polnoj-ostanovki-postavok-videokart-i-drugih.html\" rel=\"noopener noreferrer nofollow\"\u003E,  США потребовали от TSMС прекратить сотрудничество с Россией. Есть риск полной остановки поставок видеокарт и других компонентов из Юго-Восточной Азии\u003C\u002Fa\u003E\u003Cstrong\u003E. \u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\u003Cp\u003EИз приватных источников: 25 февраля Intel сообщил своим российским партнерам, что разрывает все контракты и прекращает все поставки, а в течение недели - закроет свое представительство в России. Того же числа компания TSMC сообщила, что прекращает сотрудничество с российскими компаниями. Эльбрус 16 - отменен, Эльбрус 32 - отменен, вообще все текущие разработки отечественных процессоров остановлены, техпроцессы, под которые они велись - больше недоступны, руководство МЦСТ ищет возможности вернуться к старым дизайнам и наладить работу на китайских ФАБах. \u003C\u002Fp\u003E\u003Cp\u003EВ голове не укладывается, к чему это может привести, потому что ВСЯ современная инфраструктура страны - зависит от этих поставок: работа банков, торговых сетей, логистики, железнодорожного и авиа сообщений, суперкомпьютеров и тд тп. Больше не будет горячей замены комплектующих \"день-в-день\", никакого развития, никаких новых ЦОДов и новых рабочих мест. Когда иссякнут запасы у местных дилеров, то поддержка работы серверов будет осуществляться по принципу \"выдернуть из этого и воткнуть в тот\", но этого тоже надолго не хватит.\u003C\u002Fp\u003E\u003Cp\u003EИ это только начало, потому что на очереди бойкот от софтверных компаний, MS, Google, Apple, Amazon, Meta (Facebook etc), Adobe, Dropbox и так далее и тому подобное, не будет больше никакой поддержки, никаких подписок, никаких облаков, никаких платежных систем. \u003C\u002Fp\u003E\u003Cp\u003EЕсли хотите представить, каково жить без Google Play и Google Pay - посмотрите на Крым. \u003C\u002Fp\u003E\u003Cp\u003EТолько еще одна проблема в том, значительная часть всяких VPN и средств для обхода русских и иностранных санкций - тоже может быть отключена и не все хостинг-провайдеры продолжат сотрудничество, чтобы поднять у них свой сервер с шифрованным каналом.\u003C\u002Fp\u003E\u003Cp\u003EНемного утешает то, что еще не прекращают поставки потребительских товаров, ноутбуки, смартфоны и тп - будут продавать как и раньше. Под тотальный запрет попали только промышленные технологии. Компании, которые были завязаны не только на железе - могут развивать софтверный бизнес.\u003C\u002Fp\u003E\u003Cp\u003EЕсли санкции не прекратятся, то наша страна, потихоньку, но неизбежно, начнет возвращаться в эпоху под названием: \"Начало компьютерного века\", когда информационные технологии только начали внедряться в промышленных масштабах и большинство потребителей компьютеров было среди домашних пользователей.\u003C\u002Fp\u003E\u003Chr\u002F\u003E\u003Cp\u003EНе хочется обсуждать причины того, что привело к такой ситуации, обсуждение политики тут запрещено и, если честно, из каждого утюга уже столько, что не спрятаться не скрыться. Потому, прошу воздержаться от эмоциональных комментариев.\u003C\u002Fp\u003E\u003Cp\u003EНадеемся на цивилизованный диалог.\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E","tags":[{"titleHtml":"санкции"},{"titleHtml":"intel"}],"metadata":{"stylesUrls":[],"scriptUrls":[],"shareImageUrl":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F722\u002Fe26\u002Fcc3\u002F722e26cc35c5bc3ad49cbf05c3cb9d36.png","shareImageWidth":1200,"shareImageHeight":630,"vkShareImageUrl":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F722\u002Fe26\u002Fcc3\u002F722e26cc35c5bc3ad49cbf05c3cb9d36.png","schemaJsonLd":"{\"@context\":\"http:\\\u002F\\\u002Fschema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\\u002F\\\u002Fhabr.com\\\u002Fru\\\u002Fpost\\\u002F653605\\\u002F\"},\"headline\":\"Отрасль IT в России поставили на паузу\",\"datePublished\":\"2022-02-27T15:59:16+03:00\",\"dateModified\":\"2022-02-28T14:50:23+03:00\",\"author\":{\"@type\":\"Person\",\"name\":\"Константин\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Fwebt\\\u002Fa_\\\u002Flk\\\u002F9m\\\u002Fa_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel при...\",\"url\":\"https:\\\u002F\\\u002Fhabr.com\\\u002Fru\\\u002Fpost\\\u002F653605\\\u002F#post-content-body\",\"about\":[\"h_it-infrastructure\",\"h_business-laws\",\"f_management\",\"f_admin\"],\"image\":[\"https:\\\u002F\\\u002Fhabr.com\\\u002Fshare\\\u002Fpublication\\\u002F653605\\\u002Fb978f1f138d4e7f08c10277b253c39f5\\\u002F\"]}","metaDescription":"Intel, AMD, Dell, Lenovo, HP etc, короче - все серьезные высокотехнологичные компании прекращают работу с Россией.Совсем.Из публичных источников: AMD и Intel приостановили поставки своей продукции на...","mainImageUrl":null,"amp":true,"customTrackerLinks":[]},"polls":[],"commentsEnabled":true,"rulesRemindEnabled":true,"votesEnabled":true,"status":"published","plannedPublishTime":null,"checked":null,"isEditorial":false}},"articlesIds":{},"isLoading":false,"pagesCount":{},"route":{},"reasonsList":null,"view":"list","lastVisitedRoute":{},"ssrCommentsArticleIds":[""],"karma":{}},"authorContribution":{"authors":{}},"betaTest":{"currentAnnouncement":null,"announcements":{},"announcementCards":null,"announcementComments":{},"announcementCommentThreads":{},"announcementCommentingStatuses":{},"archivedList":[]},"authorStatistics":{"articleRefs":{},"articleIds":{},"pagesCount":{},"route":{},"viewsCount":[],"maxStatsCount":{}},"career":{"seoLandings":[{"title":"Системный администратор","vacanciesCount":131,"itemUrl":"https:\u002F\u002Fcareer.habr.com\u002Fvacancies\u002Fsistemnij_administrator","itemHubs":["s_admin","it-infrastructure","server_side_optimization","sys_admin"]}],"hubs":"it-infrastructure,business-laws"},"comments":{"articleComments":{},"searchCommentsResults":null,"previewComment":null,"pagesCount":null,"commentAccess":{},"scrollParents":{},"pageArticleComments":{"lastViewedComment":0,"postId":null,"lastCommentTimestamp":"","moderated":[],"moderatedIds":[],"commentRoute":""}},"companies":{"companyRefs":{},"companyIds":{},"companyTopIds":{},"pagesCount":{},"companyProfiles":{},"companiesCategories":[],"companiesCategoriesTotalCount":0,"companiesWidgets":{},"companiesWorkers":{},"companiesFans":{},"route":{},"isLoading":false,"companyWorkersLoading":false,"companyFansLoading":false,"vacancies":{},"workplaceInfo":null},"companyAdmin":{"companyInfo":null,"companyInfoLoading":false,"faqArticles":null,"brandingPreviewImageUrl":null},"companiesContribution":{"hubs":{},"flows":{},"companyRefs":{}},"companyHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"conversation":{"messages":[],"respondent":null,"isLoadMore":false},"conversations":{"conversations":[],"unreadCount":0,"pagesCount":0,"isLoadMore":false},"desktopState":{"desktopFl":null,"desktopHl":null,"isChecked":false,"isLoginDemanded":false},"docs":{"menu":{},"articles":{},"mainMenu":[],"loading":{"main":false,"dropdown":false,"article":false}},"feature":{"isProbablyVisible":"true"},"flows":{"flows":[{"alias":"develop","id":1,"route":{"name":"FLOW_PAGE","params":{"flowName":"develop"}}},{"alias":"admin","id":6,"route":{"name":"FLOW_PAGE","params":{"flowName":"admin"}}},{"alias":"design","id":2,"route":{"name":"FLOW_PAGE","params":{"flowName":"design"}}},{"alias":"management","id":3,"route":{"name":"FLOW_PAGE","params":{"flowName":"management"}}},{"alias":"marketing","id":4,"route":{"name":"FLOW_PAGE","params":{"flowName":"marketing"}}},{"alias":"popsci","id":7,"route":{"name":"FLOW_PAGE","params":{"flowName":"popsci"}}}]},"global":{"isPwa":false,"device":"mobile","isHabrCom":true},"hubs":{"hubRefs":{},"hubIds":{},"pagesCount":{},"isLoading":false,"route":{}},"hubsBlock":{"hubRefs":{},"hubIds":{}},"i18n":{"fl":"ru","hl":"ru"},"info":{"infoPage":{},"isLoading":true},"location":{"urlStruct":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":null,"path":null,"href":""},"searchQuery":null},"me":{"user":null,"ppgDemanded":false,"karmaResetInfo":{"canReincarnate":null,"wasReincarnated":null,"currentScore":null},"notes":null},"mostReadingList":{"mostReadingListIds":[],"mostReadingListRefs":null,"promoPost":null},"pinnedPost":{"pinnedPost":null},"ppa":{"articles":{},"card":null,"transactions":null,"totalTransactions":null,"isAccessible":null},"projectsBlocks":{"activeBlocks":{}},"promoData":{"isLoading":false,"hasLoaded":false,"featurer":null,"megaposts":null,"promoLinks":null,"promoPosts":null},"pullRefresh":{"shouldRefresh":false},"sandbox":{"articleIds":[],"articleRefs":{},"pagesCount":null,"route":{},"lastVisitedRoute":{},"isLoading":false},"search":{"searchQueryError":null},"settingsOther":{"inputs":{"uiLang":{"errors":[],"ref":null,"value":""},"articlesLangEnglish":{"errors":[],"ref":null,"value":false},"articlesLangRussian":{"errors":[],"ref":null,"value":false},"agreement":{"errors":[],"ref":null,"value":false},"email":{"errors":[],"ref":null,"value":true},"digest":{"errors":[],"ref":null,"value":true}}},"similarList":{"similarListIds":[],"similarListRefs":null},"ssr":{"error":null,"isDataLoaded":false,"isDataLoading":false,"isHydrationFailed":false,"isServer":false},"technotext":{"nominationsList":[]},"userHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"userInvites":{"availableInvites":0,"usedInvitesIds":[],"usedInvitesRefs":{},"usedInvitesPagesCount":0,"unusedInvitesIds":[],"unusedInvitesRefs":{},"unusedInvitesPagesCount":0},"users":{"authorRefs":{},"authorIds":{},"pagesCount":{},"authorProfiles":{},"userHubs":{},"userInvitations":{},"authorFollowers":{},"authorFollowed":{},"userSpecialization":{},"karmaStats":[],"statistics":null,"isLoading":false,"authorFollowersLoading":false,"authorFollowedLoading":false,"userHubsLoading":false,"userInvitationsLoading":false,"route":{}},"viewport":{"prevScrollY":{},"scrollY":0,"width":0},"tracker":{"items":{},"pagesCache":{},"markedViewedSilently":{},"markedRead":{},"unreadCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null},"unviewedCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null}}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>
+<script src="https://assets.habr.com/habr-web/js/chunk-vendors.72aba079.js" defer></script><script src="https://assets.habr.com/habr-web/js/app.c5b6c1f6.js" defer></script>
+
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    </script>
+  
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(24049213, "init", {
+      defer:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:false,
+    });
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/24049213" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
+  
+    <script type="text/javascript">
+      window.addEventListener('load', function () {
+        setTimeout(() => {
+          const img = new Image();
+          img.src = 'https://vk.com/rtrg?p=VK-RTRG-421343-57vKE';
+        }, 0);
+      });
+    </script>
+  
+<script src="/js/ads.js" onload="window['zhY4i4nJ9K'] = true"></script>
+</body>
+</html>

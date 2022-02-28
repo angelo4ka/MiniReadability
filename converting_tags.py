@@ -2,25 +2,26 @@ from bs4 import BeautifulSoup
 import re
 import os
 
+# Список тегов, из которых будет извлекаться текст.
+text_tags_list = ["p", "a", "span", "b", "i", "u"]
+# Основной тег для извлечения текста
+main_text_tag = ["p"]
+# Основной тег для извлечения ссылки
+main_link_tag = ["a"]
+# Список тегов, из которых будут извлекаться заголовки.
+head_tag_list = ["h1", "h2", "h3", "h4"]
+# Количество символов в строке
+strings_characters = 80
+
 class TagConverter():
     def __init__(self, text):
         self.text = text
-        # Список тегов, из которых будет извлекаться текст.
-        self.text_tags_list = ["p", "a", "span", "b", "i", "u"]
-        # Основной тег для извлечения текста
-        self.main_text_tag = ["p"]
-        # Основной тег для извлечения ссылки
-        self.main_link_tag = ["a"]
-        # Список тегов, из которых будут извлекаться заголовки.
-        self.head_tag_list = ["h1", "h2", "h3", "h4"]
-        # Количество символов в строке
-        self.strings_characters = 80
 
     def tag_processing(self):
         contents = self.text
         soup = BeautifulSoup(contents, "lxml")
 
-        tags = soup.find_all([self.text_tags_list, self.head_tag_list])
+        tags = soup.find_all([text_tags_list, head_tag_list])
         
         # Сбрасываем текст
         self.text = ""
@@ -30,12 +31,12 @@ class TagConverter():
         # Индекс основного тега для извлечения текста
         index_mtt = 0
         for tag in tags:
-            if tag.name in self.head_tag_list:
+            if tag.name in head_tag_list:
                 self.text = self.text + " ".join(tag.text.split()) + "\n\n"
-            elif tag.name in self.main_text_tag:
+            elif tag.name in main_text_tag:
                 if tag.text != "":
                     tag_text = tag.text
-                    root = soup.find_all(self.main_text_tag)
+                    root = soup.find_all(main_text_tag)
                     root_childs = [e.name for e in root[index_mtt].children if e.name is not None]
                     
                     if len(root_childs) > 0:
@@ -43,7 +44,7 @@ class TagConverter():
                         subtag_index = index_tag + 1
                         
                         for child in root_childs:
-                            if child in self.main_link_tag:
+                            if child in main_link_tag:
                                 # Ссылка разбивается на 2 части: текст и URL-ссылки
                                 part_1 = tags[subtag_index].text
                                 part_2 = tags[subtag_index].get("href")
@@ -56,7 +57,7 @@ class TagConverter():
                     self.text = self.text + " ".join(tag_text.split()) + "\n\n"
                     index_mtt = index_mtt + 1
                 else:
-                    if tag.findParent().name not in self.main_text_tag:
+                    if tag.findParent().name not in main_text_tag:
                         self.text = self.text + " ".join(tag.text.split()) + "\n\n"
             
             index_tag = index_tag + 1
@@ -71,7 +72,7 @@ class TagConverter():
             word_list = []
             
             for word in paragraph.split():
-                if letter_count + len(word) + 1 <= self.strings_characters:
+                if letter_count + len(word) + 1 <= strings_characters:
                     word_list.append(word)
                     letter_count += len(word) + 1 
                 else:

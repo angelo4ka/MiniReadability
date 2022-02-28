@@ -15,6 +15,7 @@ if __name__ == '__main__':
         if len(command) == 2:
             url = command[1]
             
+            print("Идёт формирование документа! Пожалуйста, подождите...")
             # Получаем текстовый html-файл
             try:
                 obj_website = Website(url)
